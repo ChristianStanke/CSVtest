@@ -6,13 +6,21 @@
         {
           "path": "./en_API Postman Test_strings.csv",
           "file_format": "csv",
-          "tag": "app:language.csv1",
+          "tag": "1",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
           "language": "en"
         },
         {
           "path": "./en.csv",
           "file_format": "csv",
-          "tag": "app:language.csv2",
+          "tag": "2",
+          "columnDescription": {
+            "KEY": 0,
+            "en": 1
+          },
           "language": "en"
         }
       ]
@@ -20,9 +28,9 @@
     "pull": {
       "target": [
         {
-          "path": "./<language>_1.csv",
+          "path": "./<language>1.csv",
           "file_format": "csv",
-          "tag": "app:language.csv",
+          "tag": "1",
           "excludeHeaderRow": true,
           "excludeBaseLang": true,
           "exclude_languages": [
@@ -30,9 +38,9 @@
           ]
         },
         {
-          "path": "./<language>_2.csv",
+          "path": "./<language>2.csv",
           "file_format": "csv",
-          "tag": "app:language.csv",
+          "tag": "2",
           "excludeHeaderRow": true,
           "excludeBaseLang": true,
           "exclude_languages": [
